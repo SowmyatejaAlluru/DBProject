@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_deals"
+            android:title="Deals" />
+        <item
+            android:id="@+id/nav_orders"
+            android:title="Orders" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:title="Login/Register" />
+            <item
+                android:id="@+id/nav_update"
+                android:title="Update" />
+            <item
+                android:id="@+id/nav_contact"
+                android:title="Contact" />
+        </menu>
+    </item>
+
+</menu>
